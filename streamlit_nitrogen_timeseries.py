@@ -9,7 +9,7 @@ from google.oauth2.service_account import Credentials
 from google.auth.transport.requests import Request
 
 
-from schedule_pottasium_timeseries import load_and_concat_all_sheets_in_centers, clean_data, perform_eda, fit_arima_model, forecast_and_plot
+from schedule_nitrogen_timeseries import load_and_concat_all_sheets_in_centers, clean_data, perform_eda, fit_arima_model, forecast_and_plot
 
 st.set_page_config(page_title="Nitrogen Forecast App", layout="wide")
 
