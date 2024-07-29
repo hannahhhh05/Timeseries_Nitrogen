@@ -2,7 +2,7 @@ name: Daily Nitrogen Forecast Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at 12 am everyday UTC
+    - cron: '0 2 * * *'  # Runs at 2 am everyday UTC
   workflow_dispatch:  # Allows manual triggers
 
 jobs:
